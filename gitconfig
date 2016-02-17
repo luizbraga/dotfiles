@@ -2,12 +2,16 @@
 	name = Luiz Braga
 	email = luizbragaa@gmail.com
 [core]
-	editor = atom
+	editor = atom -w
+	autocrlf = input
 [commit]
   template = ~/.dotfiles/git/git-commit-template.txt
 [init]
-  templatedir = ~/.dotfiles/git/init_template
+  templatedir = ~/.dotfiles/git/git_template
 [filter "lfs"]
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[alias]
+  c = commit
+	lascou = reset --hard HEAD~1

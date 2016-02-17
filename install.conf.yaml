@@ -7,4 +7,8 @@
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
 
-
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [brew update, Updating Brew]
+    - [brew tap homebrew/bundle, Check Brew connectivity]
+    - [brew bundle install --file=Brewfile, Install Brewfile]
