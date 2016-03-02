@@ -44,20 +44,12 @@ brew 'elasticsearch'
 # languages
 brew 'lua'
 
-# VMs
-brew 'virtualbox'
-
 # queue
 brew 'rabbitmq'
 
 # database
 brew 'mongodb'
-brew 'mysql'
 brew 'postgresql'
-
-# docs
-brew 'gettext'
-brew 'pdf-tools'
 
 # other useful binaries
 brew 'libxml2'

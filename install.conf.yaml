@@ -3,7 +3,7 @@
 - link:
     ~/.profile: profile
     ~/.bash_profile: bash_profile
-    ~/.gitconfig: gitconfig
+    ~/.gitconfig: git/gitconfig
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
 
@@ -12,4 +12,3 @@
     - [brew update, Updating Brew]
     - [brew tap homebrew/bundle, Check Brew connectivity]
     - [brew bundle install --file=Brewfile, Install Brewfile]
-    - [pip install -r requirements.txt=Installing pip requirements]
