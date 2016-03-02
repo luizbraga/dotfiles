@@ -4,10 +4,6 @@ tap 'caskroom/cask'
 brew 'freetype'
 brew 'fontconfig'
 
-# java
-cask 'java'
-
-
 # version control
 brew 'git-flow'
 brew 'meld'
@@ -36,17 +32,11 @@ brew 'zsh-completions'
 # server
 brew 'tomcat'
 
-# amazon
-brew 's3cmd'
-
 # python
 brew 'python'
 brew 'python3'
 brew 'pypy'
 brew 'pypy3'
-
-# computer vision
-brew 'opencv'
 
 # search
 brew 'elasticsearch'
@@ -72,4 +62,3 @@ brew 'pdf-tools'
 # other useful binaries
 brew 'libxml2'
 brew 'libyaml'
-brew 'swig'

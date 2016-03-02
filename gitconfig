@@ -15,3 +15,5 @@
 [alias]
   c = commit
 	lascou = reset --hard HEAD~1
+	hide = update-index --assume-unchanged
+  unhide = update-index --no-assume-unchanged
